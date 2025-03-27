@@ -71,6 +71,11 @@ The default values are:
 ## Developer
 Kris Coulson (Shadez).
 
+## Shoutouts
+inility (Darrean) - for inspiration and outlining the currency inventory system
+Odjit - for the base work of character renaming (kinderd commands)
+Helskog - for helping me run down Map player icons!
+
 ## License
 This mod is free to use or modify.
 
