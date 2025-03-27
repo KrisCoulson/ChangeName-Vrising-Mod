@@ -60,9 +60,9 @@ The name of the currency, The currency Prefab ID, and Cost (Setting 0 makes it f
 The default values are:
 | Config Name | Default Value |
 | --- | --- |
-| Currency | $\color{red}{\textsf{Silver Coins}}$ |
-| RequiredCurrencyGUID | $\color{red}{\textsf{-949672483}}$ |
-| CurrencyCost | $\color{red}{\textsf{500}}$ |
+| Currency | Silver Coins |
+| RequiredCurrencyGUID | -949672483 |
+| CurrencyCost | 500 |
 
 ## Dependencies
 - VampireCommandFramework
