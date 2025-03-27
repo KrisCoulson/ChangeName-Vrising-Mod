@@ -1,10 +1,14 @@
-﻿"""
-# ChangeName Mod - README
+# ChangeName VRising Mod
+<img src="https://github.com/user-attachments/assets/081eee78-2c61-4b8f-8d67-fba37bb6928b" width=400px height="400px">
 
 
 ## Description
+Server Admins Rejoice! No more support tickets for name changes!
+
 ChangeName is a mod for the game *V Rising* that allows players to change their character name without assistance from an admin.
-Admins can setup a price for the name change, and players can use the `.changename` or `.cn` command to change their name. As long as they have the required amount of currency in their inventory.
+Admins can setup a currency and price for the name change, and players can use the `.changename` or `.cn` command to change their name if the required amount of currency is in their inventory.
+
+Note this mod does not do any type of filtering and does not prevent players for changing their name to something inappropriate.
 
 
 For other great mods and support join the modding community at on discord by going to https://wiki.vrisingmods.com/
@@ -18,8 +22,8 @@ For other great mods and support join the modding community at on discord by goi
 ---
 
 ## Features
-- **Player Command**: Players can update thier character name changes.
-- **Admin Configuration**: Set the price for name changes.
+- **Player Command**: Players can change their character name.
+- **Admin Configuration**: Set the price and currency for name changes.
 - **Map Icon Updates**: Player names are updated on the map when they are in a clan.
 - **Reloadable**: Simply place the mod in the Bloodstone plugins folder run `!reload`. No need to restart the server when updating settings.
 
@@ -51,15 +55,14 @@ ChangeName is also reloadable. Instead of placing the mod in the plugins folder,
 Start your V Rising dedicated server. ChangeName will initialize automatically, creating any needed config files.
 
 ### Configuration:
-##### The name of the currency to use.
-###### Currency = Silver Coins
+The name of the currency, The currency Prefab ID, and Cost (Setting 0 makes it free) 
 
-#####  The GUID of the required currency
-#####  The GUID of the required currency
-###### RequiredCurrencyGUID = -949672483
-
-#####  The cost in currency for the upgrade. Setting to 0 makes it free
-###### CurrencyCost = 500
+The default values are:
+| Config Name | Default Value |
+| --- | --- |
+| Currency | $\color{red}{\textsf{Silver Coins}}$ |
+| RequiredCurrencyGUID | $\color{red}{\textsf{-949672483}}$ |
+| CurrencyCost | $\color{red}{\textsf{500}}$ |
 
 ## Dependencies
 - VampireCommandFramework
